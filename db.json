@@ -1,0 +1,40 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "role": "user"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "admin",
+        "description": "Administrator role"
+      },
+      {
+        "id": 2,
+        "name": "user",
+        "description": "User role"
+      }
+    ],
+    "permissions": [
+      {
+        "id": 1,
+        "name": "create-users",
+        "description": "Create new users"
+      },
+      {
+        "id": 2,
+        "name": "manage-roles",
+        "description": "Manage roles"
+      }
+    ]
+  }
